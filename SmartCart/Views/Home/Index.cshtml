@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Swipecart: Burget Effectively";
+}
+
+ <!-- Hero Section -->
+    <section class="hero bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Welcome to Swipecart</h1>
+            <p class="lead">Your Digital Grocery List Tracker</p>
+            <a asp-controller="Users" asp-action="Index" class="btn btn-light btn-lg">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Create Lists</h5>
+                            <p class="card-text">Easily create and manage your grocery shopping lists.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Estimate Costs</h5>
+                            <p class="card-text">Get estimated total costs for your shopping lists.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Share Lists</h5>
+                            <p class="card-text">Share your lists with family or friends for collaboration.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta bg-secondary text-white text-center py-4">
+        <div class="container my-3">
+            <h2>Start Streamlining Your Grocery Shopping Today</h2>
+            <a asp-controller="Orders" asp-action="Index" class="btn btn-light btn-lg">Check Orders</a>
+        </div>
+    </section>
+
