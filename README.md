@@ -1,0 +1,2 @@
+# Smartcart
+Laravel project CRUD  
